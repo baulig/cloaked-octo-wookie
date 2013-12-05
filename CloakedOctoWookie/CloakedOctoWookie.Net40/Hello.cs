@@ -27,17 +27,10 @@ using System;
 
 namespace CloakedOctoWookie
 {
-	public class MyClass
+	public class Hello : IHello
 	{
-		public void Hello ()
-		{
-#if NET40
-			Console.WriteLine ("Hello Boston!");
-#elif NET45
-			Console.WriteLine ("Hello San Francisco!");
-#else
-			Console.WriteLine ("Hello New York!");
-#endif
+		public string City {
+			get { return "Boston"; }
 		}
 	}
 }

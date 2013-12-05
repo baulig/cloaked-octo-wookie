@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>CloakedOctoWookie</id>
+    <version>0.1</version>
+    <title>Cloaked Octo Wookie</title>
+    <authors>Martin Baulig</authors>
+    <owners>Martin Baulig</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Cloaked Octo Wookie</description>
+    <copyright>Copyright (c) 2013 Xamarin Inc. (http://www.xamarin.com)</copyright>
+  </metadata>
+  <files>
+    <file src="CloakedOctoWookie.Interface/bin/Debug/CloakedOctoWookie.Interface.dll" target="lib" />
+    <file src="CloakedOctoWookie.Net40/bin/Debug/CloakedOctoWookie.dll" target="lib/net40" />
+    <file src="CloakedOctoWookie.Net45/bin/Debug/CloakedOctoWookie.dll" target="lib/net45" />
+  </files>
+</package>

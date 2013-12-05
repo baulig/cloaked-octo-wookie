@@ -1,2 +1,5 @@
 *.nupkg
 *.suo
+*.userprefs
+bin/
+obj/

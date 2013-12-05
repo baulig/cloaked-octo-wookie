@@ -1,26 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloakedOctoWookie", "CloakedOctoWookie\CloakedOctoWookie.csproj", "{B9160912-0C9A-4842-B2D2-70313EDA8149}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloakedOctoWookie.Interface", "CloakedOctoWookie.Interface\CloakedOctoWookie.Interface.csproj", "{921D9C94-02AA-4B1E-9A86-8B976C9E2B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloakedOctoWookie.Net40", "CloakedOctoWookie.Net40\CloakedOctoWookie.Net40.csproj", "{B9160912-0C9A-4842-B2D2-70313EDA8149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloakedOctoWookie.Net45", "CloakedOctoWookie.Net45\CloakedOctoWookie.Net45.csproj", "{FD09DD52-E65F-4B05-9F05-F6E6DF66CA73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-		Net45|Any CPU = Net45|Any CPU
-		Net40|Any CPU = Net40|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{921D9C94-02AA-4B1E-9A86-8B976C9E2B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921D9C94-02AA-4B1E-9A86-8B976C9E2B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921D9C94-02AA-4B1E-9A86-8B976C9E2B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921D9C94-02AA-4B1E-9A86-8B976C9E2B90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Net40|Any CPU.ActiveCfg = Net40|Any CPU
-		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Net40|Any CPU.Build.0 = Net40|Any CPU
-		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Net45|Any CPU.ActiveCfg = Net45|Any CPU
-		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Net45|Any CPU.Build.0 = Net45|Any CPU
 		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9160912-0C9A-4842-B2D2-70313EDA8149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD09DD52-E65F-4B05-9F05-F6E6DF66CA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD09DD52-E65F-4B05-9F05-F6E6DF66CA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD09DD52-E65F-4B05-9F05-F6E6DF66CA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD09DD52-E65F-4B05-9F05-F6E6DF66CA73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = CloakedOctoWookie\CloakedOctoWookie.csproj
+	GlobalSection(NestedProjects) = preSolution
+		{B9160912-0C9A-4842-B2D2-70313EDA8149} = {BF718287-6A66-4586-B532-B6467C7DF563}
+		{FD09DD52-E65F-4B05-9F05-F6E6DF66CA73} = {BF718287-6A66-4586-B532-B6467C7DF563}
 	EndGlobalSection
 EndGlobal
