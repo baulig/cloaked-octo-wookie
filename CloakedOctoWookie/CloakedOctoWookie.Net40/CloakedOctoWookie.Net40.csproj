@@ -36,10 +36,4 @@
     <Compile Include="Hello.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\CloakedOctoWookie.Interface\CloakedOctoWookie.Interface.csproj">
-      <Project>{921D9C94-02AA-4B1E-9A86-8B976C9E2B90}</Project>
-      <Name>CloakedOctoWookie.Interface</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

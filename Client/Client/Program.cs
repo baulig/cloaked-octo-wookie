@@ -12,8 +12,8 @@ namespace Client
 	{
 		static void Main (string[] args)
 		{
-			var my = new MyClass ();
-			my.Hello ();
+			var hello = new Hello ();
+			Console.WriteLine ("Hello {0}.", hello.City);
 		}
 	}
 }

@@ -27,7 +27,7 @@ using System;
 
 namespace CloakedOctoWookie
 {
-	public class Hello : IHello
+	public class Hello
 	{
 		public string City {
 			get { return "San Francisco"; }

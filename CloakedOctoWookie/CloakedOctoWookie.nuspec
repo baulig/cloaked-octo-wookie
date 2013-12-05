@@ -11,7 +11,6 @@
     <copyright>Copyright (c) 2013 Xamarin Inc. (http://www.xamarin.com)</copyright>
   </metadata>
   <files>
-    <file src="CloakedOctoWookie.Interface/bin/Debug/CloakedOctoWookie.Interface.dll" target="lib" />
     <file src="CloakedOctoWookie.Net40/bin/Debug/CloakedOctoWookie.dll" target="lib/net40" />
     <file src="CloakedOctoWookie.Net45/bin/Debug/CloakedOctoWookie.dll" target="lib/net45" />
   </files>
