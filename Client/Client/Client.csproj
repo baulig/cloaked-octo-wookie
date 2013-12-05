@@ -33,8 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CloakedOctoWookie, Version=1.0.5086.39305, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="CloakedOctoWookie">
       <HintPath>..\packages\CloakedOctoWookie.0.1\lib\net40\CloakedOctoWookie.dll</HintPath>
     </Reference>
     <Reference Include="System" />
