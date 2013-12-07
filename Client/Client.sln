@@ -1,7 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{78999B69-9FB8-4FDC-9A63-D0BB6F8AF71C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC82BFE9-D472-4106-8619-A14D6843D45F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\.gitignore = .nuget\.gitignore
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console45", "Console45\Console45.csproj", "{62646AA3-F5DF-413D-A66D-45D538DA2E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console40", "Console40\Console40.csproj", "{113BC4EA-9E59-45BF-A772-D54099899D8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +19,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78999B69-9FB8-4FDC-9A63-D0BB6F8AF71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78999B69-9FB8-4FDC-9A63-D0BB6F8AF71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78999B69-9FB8-4FDC-9A63-D0BB6F8AF71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78999B69-9FB8-4FDC-9A63-D0BB6F8AF71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113BC4EA-9E59-45BF-A772-D54099899D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113BC4EA-9E59-45BF-A772-D54099899D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113BC4EA-9E59-45BF-A772-D54099899D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113BC4EA-9E59-45BF-A772-D54099899D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62646AA3-F5DF-413D-A66D-45D538DA2E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62646AA3-F5DF-413D-A66D-45D538DA2E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62646AA3-F5DF-413D-A66D-45D538DA2E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62646AA3-F5DF-413D-A66D-45D538DA2E93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Console45\Console45.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

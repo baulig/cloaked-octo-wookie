@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Net45</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40E8EE00-AB53-4FCE-A6B2-A879D8185F49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CloakedOctoWookie</RootNamespace>
+    <AssemblyName>CloakedOctoWookie</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Net45|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Net45</OutputPath>
+    <DefineConstants>NET45</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Net40|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Net40</OutputPath>
+    <DefineConstants>NET40</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'MonoMac|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\MonoMac</OutputPath>
+    <DefineConstants>MONOMAC</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'MonoTouch|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\MonoTouch</OutputPath>
+    <DefineConstants>MONOTOUCH</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'MonoAndroid|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\MonoAndroid</OutputPath>
+    <DefineConstants>MONOANDROID</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IHello.cs" />
+    <Compile Include="Hello.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

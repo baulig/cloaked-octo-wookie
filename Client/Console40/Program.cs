@@ -1,5 +1,5 @@
 //
-// MyClass.cs
+// Program.cs
 //
 // Author:
 //       Martin Baulig <martin.baulig@xamarin.com>
@@ -24,14 +24,16 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 using System;
+using CloakedOctoWookie;
 
-namespace CloakedOctoWookie
+namespace Console40
 {
-	public class Hello
+	class MainClass
 	{
-		public string City {
-			get { return "San Francisco"; }
+		public static void Main (string[] args)
+		{
+			var hello = new Hello ();
+			Console.WriteLine ("Hello {0}.", hello.City);
 		}
 	}
 }
-

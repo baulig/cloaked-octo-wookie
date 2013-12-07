@@ -11,7 +11,10 @@
     <copyright>Copyright (c) 2013 Xamarin Inc. (http://www.xamarin.com)</copyright>
   </metadata>
   <files>
-    <file src="CloakedOctoWookie.Net40/bin/Debug/CloakedOctoWookie.dll" target="lib/net40" />
-    <file src="CloakedOctoWookie.Net45/bin/Debug/CloakedOctoWookie.dll" target="lib/net45" />
+    <file src="CloakedOctoWookie/bin/Net40/CloakedOctoWookie.dll" target="lib/net40" />
+    <file src="CloakedOctoWookie/bin/Net45/CloakedOctoWookie.dll" target="lib/net45" />
+    <file src="CloakedOctoWookie/bin/MonoMac/CloakedOctoWookie.dll" target="lib/MonoMac" />
+    <file src="CloakedOctoWookie/bin/MonoTouch/CloakedOctoWookie.dll" target="lib/MonoTouch" />
+    <file src="CloakedOctoWookie/bin/MonoAndroid/CloakedOctoWookie.dll" target="lib/MonoAndroid" />
   </files>
 </package>
