@@ -2,5 +2,6 @@
   <Items>
     <Item>Client/Client.sln</Item>
     <Item>CloakedOctoWookie/CloakedOctoWookie.sln</Item>
+    <Item>../monodevelop-nuget-addin/src/MonoDevelop.PackageManagement.sln</Item>
   </Items>
 </WorkspaceItem>
